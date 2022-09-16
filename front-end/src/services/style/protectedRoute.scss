@@ -1,0 +1,15 @@
+.unauthorized
+{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 100%;
+    height: 630px;
+    justify-content: center;
+    &__title
+    {
+        margin: 0 auto;
+        font-size: 48px;
+        color: red;
+    }
+}

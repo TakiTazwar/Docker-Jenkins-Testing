@@ -1,0 +1,23 @@
+.courses {
+  width: 100%;
+  min-height: 640px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.courses__items {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-decoration: none;
+}
+.courses__items__picture {
+  width: 350px;
+  height: 300px;
+}
+.courses__items__text {
+  margin: 0 auto;
+  font-size: 38px;
+}/*# sourceMappingURL=course.css.map */

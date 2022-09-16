@@ -1,0 +1,23 @@
+.batch-menu {
+  width: 100%;
+  min-height: 640px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.batch-menu__items {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-decoration: none;
+}
+.batch-menu__items__picture {
+  width: 350px;
+  height: 300px;
+}
+.batch-menu__items__text {
+  margin: 0 auto;
+  font-size: 38px;
+}/*# sourceMappingURL=batchMenu.css.map */

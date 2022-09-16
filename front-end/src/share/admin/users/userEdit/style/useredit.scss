@@ -1,0 +1,81 @@
+.user-edit
+{
+    width: 100%;
+    min-height: 630px;
+    &__form
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        &__input
+        {
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            color: #333;
+            font-size: 20px;
+            padding: 6px 6px;
+            border-radius: 0.2rem;
+            background-color: rgb(255, 255, 255);
+            border-style: solid;
+            border-bottom: 0.3rem solid transparent;
+            transition: all 0.3s;
+            &--first
+            {
+                margin-top: 20px;
+            }
+        }
+        &__selector
+        {
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            &__label
+            {
+                font-size: 25px;
+                color: blue;
+
+                &--first
+                {
+                    padding-right: 15%;
+                }
+            }
+        }
+        &__image
+        {
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            margin-top: 30px;
+
+            &__label
+            {
+                margin-top: 0px;
+                margin-right: 10%;
+                font-size: 25px;
+
+            }
+            &__file
+            {
+                margin: 0;
+                font: 1rem/1.5 "PT Sans", Arial, sans-serif;
+                color: #5a5a5a;
+            }
+        }
+
+        &__submit
+        {
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 40%;
+            font-size: 30px;
+            background-color: rgb(99, 99, 187);
+            color: white;
+            border-color: rgb(99, 99, 187);
+        }
+    }
+
+    
+    
+}

@@ -1,0 +1,47 @@
+.single-quiz
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 630px;
+
+    &__title
+    {
+        margin: 0 auto;
+        margin-top: 20px;
+
+        font-size: 45px;
+        color: rgb(2, 32, 58);
+    }
+    &__item
+    {
+      
+        margin: 0 auto;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    &__table
+    {
+        border-style: solid;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin:0 auto;
+        font-size: 15px;
+        &__row
+        {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid;
+            height: 50px;
+        }
+
+        &__column
+        {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid;
+            width: 33%;
+        }
+    }
+}
